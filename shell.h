@@ -64,11 +64,9 @@ list_s *insert_node_at_index(list_s **head, unsigned int idx, char *ptr);
 int delete_node_at_index(list_s **head, unsigned int index);
 char **arrayify(list_s *);
 list_s *listify(char **);
-
 void free_double_array(char **);
 
 /* Above find the linked list functions */
-
 
 /* Below find the string functions */
 
@@ -87,7 +85,6 @@ char *_reverse(char *str, int n);
 char *_memset(char *s, char b, int n);
 
 /* Above find the string functions */
-
 
 void *do_mem(size_t size, void *ptr);
 void do_exit(int fd, char *msg, int code);
@@ -124,5 +121,4 @@ char *prep_execve(char *token);
 /* file functions */
 
 char *read_textfile(char *filename);
-
 #endif
